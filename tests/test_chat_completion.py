@@ -2,7 +2,7 @@ import openai
 openai.organization = "org-test"
 openai.api_key = "test"
 # openai.api_base = "http://localhost:1323/v1"
-openai.api_base = "https://localhost.localstack.cloud:1323/v1"
+openai.api_base = "http://localhost:4510/v1"
 
 
 def test_list_models():
