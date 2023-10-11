@@ -18,6 +18,7 @@ class LocalstackOpenAIExtension(Extension):
         port = services.external_service_ports.reserve_port()
         self.backend_url = f"http://localhost:{port}"
 
+        print(f"Starting mock OpenAI service on {self.backend_url}")
         mock_openai.run(port)
         atexit.register(mock_openai.stop)
 

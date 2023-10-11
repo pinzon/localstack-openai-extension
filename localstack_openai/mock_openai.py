@@ -225,7 +225,7 @@ def list_engines():
 
 
 def run(port=1323):
-    app.run(port=port)
+    app.run(port=port, debug=True)
 
 
 def stop():
