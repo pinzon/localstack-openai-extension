@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> This repository has been archived and this extension has been moved to https://github.com/localstack/localstack-extensions/.
+> 
+> You can now install the extension with `localstack extensions install localstack-extension-openai`.
+
 # LocalStack OpenAI Extension
 
 ![GitHub license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
@@ -11,7 +16,7 @@ This is a LocalStack extension that allows you to mock the OpenAI API for testin
 You can install this extension directly using the LocalStack extension manager:
 
 ```bash
-localstack extensions install "git+https://github.com/pinzon/localstack-openai-extension"
+localstack extensions install localstack-extension-openai
 ```
 
 ## Authors
